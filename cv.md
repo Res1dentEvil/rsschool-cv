@@ -36,10 +36,10 @@ function scrollingText(str) {
 ```
 
 ## Self-education
-- HTML-Academy (https://htmlacademy.ru/)
-- CS50
-- React JS (https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8)
+- [HTML-Academy](https://htmlacademy.ru/)
+- [CS50](https://courses.prometheus.org.ua/courses/course-v1:Prometheus+CS50+2019_T1/about)
+- [React JS](https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8)
 
 
 ## English level
-Pre-intermediate
+*Pre-intermediate*
