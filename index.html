@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,25 +12,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-   <header class="header">
-       <div class="container">
-        <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-              <li class="nav-item"><a href="#strengths" class="nav-link">Strengths</a></li>
-              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-              <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
-              <li class="nav-item"><a href="#self-education" class="nav-link">Self-education</a></li>
-              <li class="nav-item"><a href="#english-level" class="nav-link">English level</a></li>
-            </ul>
-          </nav>
-       </div>
-   </header>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#strengths" class="nav-link">Strengths</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                    <li class="nav-item"><a href="#self-education" class="nav-link">Self-education</a></li>
+                    <li class="nav-item"><a href="#english-level" class="nav-link">English level</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-   <main class="main">
+    <main class="main">
         <div class="container">
             <section class="section">
                 <div class="left-col dark avatar-block">
@@ -57,75 +59,99 @@
                 </div>
             </section>
 
-            <section class="section" id="contacts">
-                <div class="left-col light">
-                    <h2 class="section-title">Contacts</h2>
-                </div>
-                <div class="right-col dark">
-                    12121
-                </div>
-            </section>
-
             <section class="section" id="summary">
-                <div class="left-col dark">
+                <div class="left-col light">
                     <h2 class="section-title">Summary</h2>
                 </div>
-                <div class="right-col light">
-                    dfdf
+                <div class="right-col dark">
+                    <p class="container750">
+                        I graduated from the Kyiv National University of Technologies and Design in 2015.
+                        Went to work as a manager / technologist in the agro-industrial complex, where I still work.
+                        But now, my goal is to improve my programming skills and get a job as a front-end developer.
+                    </p>
                 </div>
             </section>
 
             <section class="section" id="strengths">
-                <div class="left-col light">
+                <div class="left-col dark">
                     <h2 class="section-title">Strengths</h2>
                 </div>
-                <div class="right-col dark">
-                    zzsdzsd
+                <div class="right-col light">
+                    <ul>
+                        <li>High communication skills</li>
+                        <li>Good stress resistance</li>
+                        <li>Responsible</li>
+                        <li>Have experience in a managerial position</li>
+                    </ul>
                 </div>
             </section>
 
             <section class="section" id="skills">
-                <div class="left-col dark">
+                <div class="left-col light">
                     <h2 class="section-title">Skills</h2>
                 </div>
-                <div class="right-col light">
-                    sdsd
-                </div>    
+                <div class="right-col dark">
+                    <ul class="skills-ul container750">
+                        <li><img src="./assets/img/html.svg" alt="html">HTML</li>
+                        <li><img src="./assets/img/css.svg" alt="css"> CSS</li>
+                        <li><img src="./assets/img/javascript.svg" alt="js"> JS Basic</li>
+                        <li><img src="./assets/img/react.svg" alt="react"> React JS</li>
+                        <li><img src="./assets/img/git.svg" alt="git"> Git Basic</li>
+                        <li><img src="./assets/img/photoshop.svg" alt="photoshop"> Photoshop</li>
+                    </ul>
+                </div>
             </section>
 
             <section class="section" id="code-example">
-                <div class="left-col light">
+                <div class="left-col dark">
                     <h2 class="section-title">Code example</h2>
                 </div>
-                <div class="right-col dark">
-                    sdsds
+                <div class="right-col light">
+                    <pre class="container750"><code>
+                        function scrollingText(str) {
+                            let strToArr = str.split('')
+                            let arrAnswer = [str.toUpperCase()]
+                        
+                            for (let i = 1; i < strToArr.length; i++) {
+                                let first = strToArr.shift()
+                                strToArr.push(first)
+                                arrAnswer.push(strToArr.join('').toUpperCase())
+                            }    
+                          return arrAnswer;
+                        }
+                    </code></pre>
                 </div>
             </section>
 
             <section class="section" id="self-education">
-                <div class="left-col dark">
+                <div class="left-col light">
                     <h2 class="section-title">Self-education</h2>
                 </div>
-                <div class="right-col light">
-                    aaaa
+                <div class="right-col dark">
+                    <ul class="education">
+                        <li><a href="https://htmlacademy.ru/">HTML-Academy</a> </li>
+                        <li><a href="https://courses.prometheus.org.ua/courses/course-v1:Prometheus+CS50+2019_T1/about">CS50</a></li>
+                        <li><a href="https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8">React JS</a></li>
+                    </ul>
                 </div>
             </section>
 
             <section class="section" id="english-level">
-                <div class="left-col light">
+                <div class="left-col dark">
                     <h2 class="section-title">English level</h2>
                 </div>
-                <div class="right-col dark">
-                    aaaa
+                <div class="right-col light">
+                    <br>Pre-intermediate
                 </div>
             </section>
         </div>
-   </main>
+    </main>
 
-   <footer style="border: 1px solid green;" class="footer">
+    <footer style="border: 1px solid green;" class="footer">
         <div class="container">
             footer
         </div>
-   </footer>
+    </footer>
 </body>
+
 </html>
