@@ -27,9 +27,7 @@ body {
     max-width: 100%;
     margin   : 0 auto;
 }
-ul {
-    list-style     : none;
-}
+
 a{
     text-decoration: none;
     color           : #A4A5A6;
@@ -85,7 +83,9 @@ a:hover {
     color      : #FDFEF9FF;
     text-shadow: 4px 4px 22px rgba(255, 255, 255, 0.5);
 }
-
+.color {
+    color: #F5F0D4FF;
+}
 
 /*main*/
 h1,
@@ -98,6 +98,7 @@ h1 {
     font-size    : 32px;
     margin-bottom: 7px;
     margin-top   : 38vh;
+    
 }
 
 h4 {
@@ -162,4 +163,20 @@ h2 {
 pre {
     color: black;
     background-color: #979899FF;
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 0px;
+    font-size: 12px;
+}
+.footer a {
+    margin: 0 10px;
+}
+.footer img:hover {
+    transform: scale(1.05);
+    transition     : 0.5s;
 }
