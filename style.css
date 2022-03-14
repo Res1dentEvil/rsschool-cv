@@ -129,7 +129,6 @@ h5{
 
 .container750 {
     max-width: 830px;
-
 }
 
 .avatar-block {
@@ -171,7 +170,6 @@ h5{
 .portfolio{
     display: flex;
     gap: 45px;
-    
 }
 
 .portfolioImg {
@@ -200,4 +198,51 @@ h5{
 .footer img:hover {
     transform: scale(1.05);
     transition     : 0.5s;
+}
+
+@media screen and (max-width: 940px) {
+    body {
+        overflow-x: hidden;
+    }
+    .avatar {
+        width: 250px;
+        height: 250px;
+    }
+    .contacts-ul {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    .portfolio{
+        gap: 25px;
+    }
+    .portfolioImg {
+        width: 120px;
+        height: 120px;
+    }
+    h5{
+        font-size       : 16px;
+        font-weight     : 400;
+    }
+
+}
+@media screen and (max-width: 733px) {
+    .avatar {
+        width: 150px;
+        height: 150px;
+        margin-right : 0px;
+    }
+    .portfolio{
+        gap: 20px;
+    }
+    .portfolioImg {
+        width: 70px;
+        height: 70px;
+    }
+    h5{
+        display: none;
+    }
+    .skills-ul {
+        padding: 0;
+    }
 }
