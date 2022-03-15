@@ -1,2 +1,3 @@
-https://res1dentevil.github.io/rsschool-cv/cv <br>
-https://res1dentevil.github.io/rsschool-cv/
+
+https://Res1dentEvil.github.io/rsschool-cv/cv <br>
+https://Res1dentEvil.github.io/rsschool-cv/
